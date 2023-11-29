@@ -143,12 +143,15 @@ main .seccionuno img {
     font-size: 100%;
 }
 
+
 footer .flechainicio a {
     position: fixed;
     bottom: 8%;
     left: 90%;
     color: white;
 }
+
+
 
 footer h2 {
     letter-spacing: 0.25em;
@@ -190,14 +193,31 @@ footer nav ul {
     display: none;
 }
 
+
+
+
+.item {
+    width: 125%;
+}
+
+.achicar img {
+    height: 48%;
+}
+
+.agrandare img {
+    height: 48%;
+}
+
+
+
 @media (max-width: 768px) {
 
 
     header {
         display: flex;
-        flex-direction:row;
+        flex-direction: row;
         justify-content: space-between;
-   }
+    }
 
     .seccionuno {
         display: flex;
@@ -266,17 +286,17 @@ footer nav ul {
         color: white;
     }
 
-    .navbar.active{
+    .navbar.active {
         height: 100vh;
         position: fixed;
         right: 0.1%;
 
-        
+
     }
 
     .navbar.active ul.menu {
         opacity: 1;
-        
+
     }
 
 
@@ -332,6 +352,8 @@ footer nav ul {
         margin-right: 5%;
     }
 
+
+
     .item h2 {
         color: white;
         text-align: center;
@@ -341,6 +363,13 @@ footer nav ul {
         letter-spacing: 0.25em;
         font-size: 200%;
     }
+
+    .item {
+        width: 100%;
+    }
+
+#lalalalala{margin-left: 5.8%;
+            margin-right: 5.8%;}
 
     .item p {
         padding: 3%;
